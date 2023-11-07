@@ -1,16 +1,20 @@
 import AddToDo from "./components/addtodo"
 import Navbar from "./components/navbar"
 import Todos from "./components/todos"
+import Sidebar from "./components/SIdebar"
 import "./App.css"
 
 const App = () => {
   return (
-   <main>
-      <h1>Welcome To TODO-APP </h1>
+    <>
+    <Sidebar />
+    <main>
+      <h1>Welcome To Todo-App </h1>
       <Navbar />
       <AddToDo />
       <Todos />
-   </main>
+    </main>
+    </>
   )
 }
 

@@ -1,0 +1,62 @@
+/* Sidebar.css */
+aside {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px; 
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+  }
+  
+  /* Add the 'open' class to show the sidebar */
+  aside.open {
+    left: 0;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+ .sdebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10vw;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  a.active {
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    margin-left: 20px;
+    position: fixed;
+    color: green;
+}
