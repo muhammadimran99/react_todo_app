@@ -1,0 +1,57 @@
+/* addtodo.css */
+.addTodo {
+    margin-top: 1vw;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.addTodo form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addTodo input,
+.addTodo select,
+.addTodo button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.addTodo button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.addTodo button:hover {
+    background-color: #0056b3;
+}
+
+.todo-table button[type="button"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .todo-table button[type="button"]:hover {
+    transform: scale(1.05);
+  }
+  
+  .todo-table button[type="button"].start {
+    background-color: #3498db; /* Blue background for "Start" button */
+    color: #fff;
+    border: none;
+  }
+  
+  .todo-table button[type="button"].stop {
+    background-color: orange; /* Red background for "Stop" button */
+    color: #fff;
+    border: none;
+  }
